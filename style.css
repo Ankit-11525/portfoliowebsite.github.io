@@ -1,6 +1,6 @@
 * {
   /* background-color: #ebe7e7; */
-  font-family: cursive;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -21,10 +21,10 @@ nav {
 }
 
 nav .logo {
-  font-size: 35px;
+  font-size: 40px;
   color: rgb(54, 54, 53);
   font-weight: 600;
-  font-family: "Dancing Script", cursive;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 nav ul {
@@ -73,15 +73,19 @@ nav .menu-btn i {
   justify-content: space-between;
 
   justify-content: space-around;
-  padding: 23px;
-  margin: 10%;
+  /* padding: 23px; */
+  margin-top: 8%;
+  /* border: 2px solid red; */
 }
 #about {
   width: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  /* border: 2px solid rgb(17, 16, 16); */
+
+
 }
 .profile img {
   height: 370px;
@@ -230,11 +234,11 @@ nav .menu-btn i {
 }
 .lang-cont {
   width: 270px;
-  height: 27px;
+  height: 74px;
   padding: 26px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   flex-wrap: wrap;
   margin: 10px;
 }
@@ -256,14 +260,16 @@ nav .menu-btn i {
 .lang-cont p {
   font-size: 25px;
   margin: auto;
+  
   text-align: center;
 }
 .lang-cont:hover {
-  width: 210px;
+  width: 270px;
 
-  height: 27px;
+
+  height: 74px;
   background-color: #ccc7c7;
-  transition: all 1s ease-in-out;
+  transition: all 0.4s ease-in-out;
   border-radius: 9px;
 }
 /* additional */
@@ -337,7 +343,29 @@ nav .menu-btn i {
   left: -7px;
   margin: auto;
 }
-@media (max-width: 940px) {
+@media (max-width: 900px) {
+  /* #home {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+    justify-content: space-around;
+    /* padding: 23px; */
+    /* margin-top: 8%;
+    border: 2px solid red;
+    margin: auto; */
+  /* }
+  #about {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid rgb(17, 16, 16);
+  
+  
+  }  */
   #Contact {
     margin-top: 35px;
   }
